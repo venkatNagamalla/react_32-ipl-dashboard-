@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.latest-matches-heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.latest-matches-container {
+  color: #ffffff;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 220px;
+}
+
+.competing-team-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.competing-team-container {
+  width: 80%;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 13px;
+  margin-top: 8px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.competing-team-logo {
+  width: 50px;
+}
+
+.details-container {
+  padding: 25px;
+}
+
+.total-container {
+  background-color: #1e293b;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-container {
+    display: flex;
+    align-items: center;
+  }
+  .latest-matches-container {
+    width: 60%;
+  }
+  hr {
+    display: none;
+  }
+  .details-container {
+    text-align: right;
+    width: 40%;
+  }
+  .competing-team-name {
+    font-size: 30px;
+  }
+  .date {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .team-side-heading {
+    font-size: 21px;
+  }
+  .competing-team-logo {
+    width: 150px;
+  }
+}
+
+.team-side-heading {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 8px;
+}
